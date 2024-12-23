@@ -32,34 +32,57 @@ The model predicts and displays the outcome based on the input data provided by 
 
 ### Directory Structure
 ├── artifacts/                    # Directory for generated artifacts
+
 │   ├── data.csv                  # Raw dataset
+
 │   ├── test.csv                  # Test dataset
+
 │   ├── train.csv                 # Training dataset
+
 ├── logs/                         # Directory for log files
+
 ├── src/
+
 │   ├── mlproject/
+
 │       ├── components/           # Core ML components
+
 │       │   ├── data_ingestion.py # Handles data ingestion
+
 │       │   ├── data_transformation.py # Data preprocessing
+
 │       │   ├── model_monitoring.py # Monitoring model performance
+
 │       │   ├── model_trainer.py  # Model training logic
+
 │       ├── pipelines/            # Pipelines for prediction and other tasks
+
 │       │   ├── __init__.py
+
 │       │   ├── prediction_pipeline.py # Pipeline for making predictions
+
 │       ├── __init__.py
+
 │       ├── exception.py          # Custom exception handling
+
 │       ├── logger.py             # Logging utility
+
 │       ├── utils.py              # Utility functions
+
 ├── templates/
+
 │   ├── home.html                 # Main input form page
+
 │   ├── index.html                # Landing page
+
 ├── venv/                         # Virtual environment directory
+
 ├── app.py                        # Flask application entry point
+
 ├── README.md                     # Project documentation
+
 ├── requirements.txt              # Python dependencies
+
 ├── setup.py                      # Installation setup
+
 └── template.py                   # Template script for custom utilities
-
-
-
-
