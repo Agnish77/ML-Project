@@ -1,4 +1,4 @@
-#### Flask-based Machine Learning Prediction Application
+# Flask-based Machine Learning Prediction Application
 This project demonstrates a Flask web application for predicting outcomes based on user inputs using a trained machine learning model. The application takes data such as demographic details and test scores, preprocesses it, and predicts the outcome using a pre-trained model.
 
 
